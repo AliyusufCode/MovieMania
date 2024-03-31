@@ -1,0 +1,49 @@
+.content {
+  .title {
+    user-select: none;
+    display: flex;
+    padding: 0 20px;
+    margin-top: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+    .icon {
+      font-size: 30px;
+    }
+  }
+}
+.movies {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+
+  margin: 10px;
+  .swiperButtonNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10;
+    .icon {
+      margin-top: 5px;
+    }
+  }
+  .swiperButtonPrev {
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10;
+    .icon {
+      margin-top: 5px;
+    }
+  }
+  .swiperButtonNext {
+    right: 10px;
+  }
+}

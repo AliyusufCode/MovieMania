@@ -1,0 +1,30 @@
+.content {
+  width: 95%;
+  margin: 0 auto;
+}
+.slide {
+  display: flex;
+  user-select: none;
+  background: rgb(27, 27, 27);
+  border-radius: 6px;
+
+  .slideInfo {
+    display: flex;
+    color: rgb(200, 200, 200);
+    align-items: center;
+    padding: 14px 10px;
+    text-align: center;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    margin: 0 20px;
+  }
+
+  &:hover {
+    .slideInfo {
+      cursor: pointer;
+      transition: color 0.3s;
+      color: rgb(240, 68, 68);
+    }
+  }
+}

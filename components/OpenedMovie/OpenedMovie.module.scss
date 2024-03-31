@@ -1,0 +1,135 @@
+.container {
+  position: relative;
+}
+.imageContainer {
+  .img {
+    width: 100%;
+    user-select: none;
+    height: 90vh;
+    mask-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0)
+    );
+  }
+}
+
+.infoContainer {
+  display: flex;
+}
+
+.title {
+  margin: 30px;
+  font-size: 50px;
+  z-index: 111;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.titleBottom {
+  margin: 30px;
+  position: absolute;
+  top: 35%;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  color: gray;
+  .rating {
+    border-radius: 10px;
+    background: green;
+    padding: 5px 10px;
+    color: white;
+  }
+  .country {
+    margin: 0 10px;
+  }
+  .year {
+    margin: 0 10px;
+  }
+  .time {
+    margin: 0 10px;
+  }
+}
+
+.contentBottom {
+  position: absolute;
+  margin: 30px;
+  top: 40%;
+}
+.body {
+  margin: 20px 0;
+  top: 41%;
+  max-width: 400px;
+}
+.contentDirector {
+  display: flex;
+  align-items: center;
+  .directorName {
+    margin-left: 5px;
+  }
+  .director {
+    margin-left: 10px;
+    color: gray;
+    margin: 4px 0;
+    top: 44%;
+  }
+}
+.contentGanre {
+  display: flex;
+  align-items: center;
+  .ganre {
+    display: flex;
+    p {
+      margin-left: 10px;
+    }
+  }
+  .ganres {
+    margin-left: 10px;
+    color: gray;
+    margin: 4px 0;
+    top: 44%;
+  }
+}
+
+.contentActors {
+  display: flex;
+  align-items: center;
+  .actorsNames {
+    margin-left: 5px;
+    position: relative;
+    border-bottom: 1px solid rgb(146, 136, 136);
+    display: flex;
+    overflow: hidden;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-image: linear-gradient(to top, rgb(91, 87, 87), transparent);
+    }
+  }
+
+  .actors {
+    margin-left: 10px;
+    color: gray;
+    margin: 4px 0;
+    top: 44%;
+  }
+}
+.contentDescription {
+  max-width: 50%;
+  p {
+    margin-top: 11px;
+    font-weight: 700;
+    color: rgb(173, 168, 168);
+    line-height: 1.7;
+  }
+  padding: 50px 25px;
+}
+.span {
+  color: blue;
+  cursor: pointer;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}

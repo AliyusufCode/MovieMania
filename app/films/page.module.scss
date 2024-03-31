@@ -1,0 +1,42 @@
+.content {
+  margin: 20px;
+  padding: 0 20px;
+
+  select {
+    padding: 7px;
+    margin: 5px;
+    font-size: 16px;
+
+    border: 0;
+    border-radius: 5px;
+    background-color: #1c1a1a;
+    cursor: pointer;
+
+    &:hover {
+      cursor: pointer;
+      border-color: #888;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  option {
+    padding: 8px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+.arrow-down {
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,18 @@
+.content {
+  padding: 1px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftHeader {
+  display: flex;
+
+  .logo {
+    margin-top: 6px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: rgb(45, 223, 64);
+  }
+}

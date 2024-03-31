@@ -1,0 +1,31 @@
+.actorsMovie {
+  justify-content: space-between;
+  padding: 30px 20px;
+  .actor {
+    flex-wrap: wrap;
+    display: flex;
+
+    .actorInfo {
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+    .image {
+      margin: 20px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nameActor {
+      font-weight: 600;
+      font-size: 14px;
+      max-width: 200px;
+    }
+    text-align: center;
+    h5 {
+      color: rgb(123, 119, 119);
+    }
+  }
+}

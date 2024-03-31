@@ -1,0 +1,47 @@
+.actor {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 20px;
+
+  .contentActor {
+    justify-content: center;
+    padding: 30px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    .img {
+      border-radius: 50%;
+    }
+    .info {
+      margin-left: 10px;
+      .infoActer {
+        display: flex;
+        h4 {
+          font-size: 17px;
+          color: gray;
+          font-weight: 700;
+        }
+        p {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .movieCount {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+  }
+  .slider {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .slide {
+      margin: 10px;
+    }
+  }
+}

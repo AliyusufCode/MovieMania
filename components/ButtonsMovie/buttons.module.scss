@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  position: absolute;
+  margin: 30px;
+  top: 74%;
+}
+.openMovie {
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  border: 0;
+  background-color: rgb(24, 81, 135);
+  cursor: pointer;
+}
+.openTrailer {
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(62, 60, 60);
+}
+.favorite {
+  margin: 0 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(62, 60, 60);
+  .img {
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    top: auto 0;
+  }
+}

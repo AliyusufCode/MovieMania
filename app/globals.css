@@ -105,3 +105,7 @@ a {
     color-scheme: dark;
   }
 }
+.app {
+  width: 1515px;
+  margin: 0 auto;
+}

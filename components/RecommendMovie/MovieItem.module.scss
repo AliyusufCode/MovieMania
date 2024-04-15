@@ -27,47 +27,52 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: rgba(0, 0, 0, 0.8);
+
       color: white;
       padding: 20px;
-      .info:hover {
-        cursor: pointer;
-        transform: background-color 0.3s ease;
-      }
-      .title {
-        position: absolute;
-        top: 70%;
-        left: 10%;
+      transition: background-color 0.3s ease;
+    }
 
-        color: rgb(255, 255, 255);
-        padding: 1px 3px;
-      }
-      .rating {
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        background: rgb(37, 36, 36);
-        padding: 5px;
-        border-radius: 4px;
-      }
+    .info:hover {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
 
-      .year {
-        position: absolute;
-        top: 85%;
-        left: 10%;
-      }
-      .time {
-        position: absolute;
-        top: 85%;
-        left: 40%;
-        opacity: 0.7;
-      }
-      .ganre {
-        position: absolute;
-        top: 6%;
-        left: 50%;
-        opacity: 0.7;
-      }
+    .title {
+      position: absolute;
+      top: 70%;
+      left: 10%;
+      color: rgb(255, 255, 255);
+      padding: 1px 3px;
+    }
+
+    .rating {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      background: rgb(37, 36, 36);
+      padding: 5px;
+      border-radius: 4px;
+    }
+
+    .year {
+      position: absolute;
+      top: 85%;
+      left: 10%;
+    }
+
+    .time {
+      position: absolute;
+      top: 85%;
+      left: 40%;
+      opacity: 0.7;
+    }
+
+    .ganre {
+      position: absolute;
+      top: 6%;
+      left: 50%;
+      opacity: 0.7;
     }
   }
 }

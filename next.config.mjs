@@ -1,11 +1,23 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "kinomore.netlify.app",
-      "i.pinimg.com",
-      "avatars.mds.yandex.net",
-      "wl-adme.cf.tsp.li",
+    remotePatterns: [
+      {
+        hostname: "kinomore.netlify.app",
+        protocol: "https",
+      },
+      {
+        hostname: "i.pinimg.com",
+        protocol: "https",
+      },
+      {
+        hostname: "avatars.mds.yandex.net",
+        protocol: "https",
+      },
+      {
+        hostname: "wl-adme.cf.tsp.li",
+        protocol: "https",
+      },
     ],
   },
 };

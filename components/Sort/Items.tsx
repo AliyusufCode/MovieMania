@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { data } from "../../../app/api/data";
+import { data } from "@/api/data";
 import styles from "./sort.module.scss";
 import MovieItem from "../RecommendMovie/MovieItem";
 import Link from "next/link";

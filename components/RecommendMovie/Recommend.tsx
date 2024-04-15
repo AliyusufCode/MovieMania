@@ -5,7 +5,7 @@ import styles from "./Recommend.module.scss";
 import MovieItem from "./MovieItem";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
-import { data } from "../../../app/api/data";
+import { data } from "@/api/data";
 import Link from "next/link";
 import { useDispatch } from "react-redux";
 import { setSelectedGenre } from "@/store/Slices/sortSlice";

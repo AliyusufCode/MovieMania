@@ -42,7 +42,29 @@
 @media screen and (min-width: 150px) and (max-width: 500px) {
   .content {
     margin-left: 20px;
-
     top: 150%;
+    .openMovie {
+      font-size: 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      padding: 6px;
+    }
+    .openTrailer {
+      margin-left: 8px;
+      font-size: 15px;
+      padding: 6px;
+      font-weight: bold;
+    }
+    .favorite {
+      margin: 0 7px;
+      font-size: 15px;
+      border-radius: 6px;
+      padding: 6px;
+    }
   }
 }
+//  .content
+//       .openMovie
+//       .openTrailer
+//       .favorite
+//          .img

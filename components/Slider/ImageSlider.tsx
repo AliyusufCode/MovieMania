@@ -44,13 +44,13 @@ const CarouselComponent = ({ sliders }: { sliders: Slider[] }) => {
         loop={true}
         breakpoints={{
           360: {
-            slidesPerView: 1.12,
+            slidesPerView: 1.1,
             spaceBetween: 3,
-            centeredSlides: true,
+            centeredSlides: false,
           },
           400: {
             slidesPerView: 1.14,
-            centeredSlides: true,
+            centeredSlides: false,
             spaceBetween: 1,
           },
           465: {

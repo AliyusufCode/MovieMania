@@ -1,7 +1,10 @@
 .content {
   margin: 20px;
-  padding: 0 20px;
-
+  padding: 0 0px;
+  margin-top: 0px;
+  h2 {
+    padding-top: 65px;
+  }
   select {
     padding: 7px;
     margin: 5px;
@@ -39,4 +42,19 @@
 .arrow-up {
   transform: rotate(180deg);
   transition: transform 0.3s ease-in-out;
+}
+@media screen and (min-width: 260px) and (max-width: 483px) {
+  .content {
+    margin: 10px;
+    margin-top: 0;
+    padding: 0 0px;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 3333px) {
+  .content {
+    h2 {
+      padding: 0 20px;
+      margin-top: 90px;
+    }
+  }
 }

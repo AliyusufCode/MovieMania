@@ -1,6 +1,14 @@
 .items {
   display: flex;
-
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 1px;
+}
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .items {
+    position: relative;
+    right: 2vh;
+    flex-wrap: wrap;
+    padding: 1px;
+  }
 }

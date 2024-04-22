@@ -3,6 +3,7 @@
   padding: 2px;
   border-radius: 16px;
   margin-bottom: 20px;
+  margin-top: 55px;
 
   &:hover {
     cursor: pointer;
@@ -66,4 +67,55 @@
 
 .swiperButtonPrev {
   left: 10px;
+}
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .swiperButtonNext {
+    display: none;
+  }
+  .textOverlay,
+  .textOverlayBottom {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    padding: 10px;
+    text-align: center;
+    h3 {
+      margin-left: 20px;
+    }
+  }
+  .swiperButtonPrev {
+    display: none;
+  }
+  .cart {
+    height: 260px;
+    width: 440px;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 483px) {
+  .cart {
+    height: 240px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 440px) {
+  .cart {
+    height: 200px;
+    width: 385px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  .cart {
+    height: 200px;
+    width: 345px;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 3333px) {
+  .cart {
+    margin-top: 80px;
+  }
 }

@@ -42,6 +42,31 @@ const CarouselComponent = ({ sliders }: { sliders: Slider[] }) => {
         slidesPerView={1.77}
         centeredSlides={true}
         loop={true}
+        breakpoints={{
+          360: {
+            slidesPerView: 1.12,
+            spaceBetween: 3,
+            centeredSlides: true,
+          },
+          400: {
+            slidesPerView: 1.14,
+            centeredSlides: true,
+            spaceBetween: 1,
+          },
+          465: {
+            slidesPerView: 1.1,
+            spaceBetween: 3,
+          },
+          500: {
+            slidesPerView: 1.3,
+            spaceBetween: 3,
+          },
+          1024: {
+            slidesPerView: 1.77,
+            centeredSlides: true,
+            spaceBetween: 10,
+          },
+        }}
       >
         {sliders.map((slider: any, index: number) => (
           <SwiperSlide key={index} className={styles.slide}>

@@ -1,26 +1,32 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./MovieItem.module.scss";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export type MovieProps = {
   img: string;
-
   year: number;
   title: string;
   rating: number;
   time: string;
 };
+
 const MovieItem: React.FC<MovieProps> = ({
   img,
   title,
-
   rating,
   year,
   time,
 }) => {
   const [pointed, setPointed] = useState(false);
   const imageRef = useRef(null);
+  const pathname = usePathname();
+  const [isFilmsPage, setIsFilmsPage] = useState(pathname);
+
+  useEffect(() => {
+    setIsFilmsPage(pathname);
+  }, [pathname]);
 
   const handleMouseEnter = () => {
     if (imageRef.current) {
@@ -40,7 +46,13 @@ const MovieItem: React.FC<MovieProps> = ({
         <div
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          className={styles.img}
+          className={
+            isFilmsPage === "/films" ||
+            isFilmsPage === "/series" ||
+            isFilmsPage === "/cartoons"
+              ? styles.isFilmsPage
+              : styles.img
+          }
         >
           <Image
             ref={imageRef}
@@ -62,4 +74,5 @@ const MovieItem: React.FC<MovieProps> = ({
     </div>
   );
 };
+
 export default MovieItem;

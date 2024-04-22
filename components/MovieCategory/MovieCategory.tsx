@@ -3,15 +3,13 @@ import React from "react";
 import Link from "next/link";
 import styles from "./category.module.scss";
 import { usePathname } from "next/navigation";
-
+export const list = [
+  { title: "Главная", url: "/" },
+  { title: "Фильмы", url: "/films" },
+  { title: "Сериалы", url: "/series" },
+  { title: "Мультфильмы", url: "/cartoons" },
+];
 const MovieCategory = () => {
-  const list = [
-    { title: "Главная", url: "/" },
-    { title: "Фильмы", url: "/films" },
-    { title: "Сериалы", url: "/series" },
-    { title: "Мультфильмы", url: "/cartoons" },
-  ];
-
   const pathname = usePathname();
 
   return (

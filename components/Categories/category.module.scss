@@ -12,12 +12,12 @@
     display: flex;
     color: rgb(200, 200, 200);
     align-items: center;
-    padding: 14px 10px;
+    padding: 14px 14px;
     text-align: center;
     gap: 10px;
-    margin: auto;
+
+    margin: 0 10px;
     justify-content: center;
-    margin: 0 20px;
   }
 
   &:hover {
@@ -25,6 +25,21 @@
       cursor: pointer;
       transition: color 0.3s;
       color: rgb(240, 68, 68);
+    }
+  }
+}
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .slideInfo {
+    .icon {
+      padding: 0px;
+      margin: 0;
+    }
+    p {
+      margin-right: 10px;
+      padding-right: 10px;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
     }
   }
 }

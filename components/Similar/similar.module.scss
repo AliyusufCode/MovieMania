@@ -7,3 +7,37 @@
   display: inline-block;
   margin-right: 10px;
 }
+.similar {
+  margin-top: 20px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 1px;
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.slide h4 {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.slide p {
+  font-size: 0.9rem;
+  color: #777;
+}

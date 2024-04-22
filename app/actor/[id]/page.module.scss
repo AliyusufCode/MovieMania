@@ -45,3 +45,44 @@
     }
   }
 }
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .actor {
+    padding: 12px;
+    .contentActor {
+      justify-content: center;
+      padding: 30px;
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      .img {
+        margin-top: 20px;
+        border-radius: 5%;
+      }
+      .info {
+        margin-left: 10px;
+        .infoActer {
+          display: flex;
+          h4 {
+            font-size: 17px;
+            color: gray;
+            font-weight: 700;
+          }
+          p {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    .movieCount {
+      text-align: center;
+      font-size: 22px;
+      padding: 2px 0;
+    }
+    .slider {
+      .slide {
+        margin: 1px;
+      }
+    }
+  }
+}

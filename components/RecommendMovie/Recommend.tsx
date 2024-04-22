@@ -28,7 +28,6 @@ const RecommendMovie: React.FC<Props> = ({ title, sortGanre }) => {
       (swiperRef.current as any).swiper.slidePrev();
     }
   };
-  console.log(title);
   const dispatch = useDispatch();
 
   const handleGenreSelection = (genre: string) => {
@@ -62,6 +61,26 @@ const RecommendMovie: React.FC<Props> = ({ title, sortGanre }) => {
           spaceBetween={10}
           slidesPerView={6}
           loop={false}
+          breakpoints={{
+            360: {
+              slidesPerView: 2.5,
+              spaceBetween: 11,
+              centeredSlides: false,
+            },
+            375: {
+              slidesPerView: 2.8,
+              spaceBetween: 11,
+              centeredSlides: false,
+            },
+            410: {
+              spaceBetween: 2,
+              slidesPerView: 3.2,
+            },
+            500: {
+              spaceBetween: 10,
+              slidesPerView: 6,
+            },
+          }}
         >
           {data
             .filter((obj) => checkGenre(obj, sortGanre))

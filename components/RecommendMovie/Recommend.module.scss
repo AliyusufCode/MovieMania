@@ -47,3 +47,23 @@
     right: 10px;
   }
 }
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .swiperButtonNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10;
+    .icon {
+      margin-top: 5px;
+    }
+  }
+  .swiperButtonPrev {
+    display: none;
+  }
+  .swiperButtonNext {
+    display: none;
+  }
+}

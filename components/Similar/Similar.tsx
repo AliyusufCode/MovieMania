@@ -21,9 +21,7 @@ const SimilarSlider: React.FC<Props> = ({ ganre, type, title }) => {
     <div>
       <div className={styles.similar}>
         <h3>
-          {filter.length > 0
-            ? "Похожее"
-            : "Пока что нету похожих фильмов к этому сериалу:("}
+          {filter.length > 0 ? "Похожее" : "Пока что нету похожих фильмов :("}
         </h3>
         <div className={styles.slider}>
           {filter.map((obj: any) => (

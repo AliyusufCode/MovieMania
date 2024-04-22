@@ -36,3 +36,8 @@
   border-radius: 5px;
   padding-bottom: 10px;
 }
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .list {
+    display: none;
+  }
+}

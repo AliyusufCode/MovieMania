@@ -83,6 +83,17 @@ const Categories = () => {
         slidesPerView={7}
         centeredSlides={false}
         loop={true}
+        breakpoints={{
+          360: {
+            slidesPerView: 2.4,
+            spaceBetween: 8,
+            centeredSlides: false,
+          },
+          500: {
+            spaceBetween: 20,
+            slidesPerView: 7,
+          },
+        }}
       >
         {list.map((obj) => (
           <SwiperSlide key={obj.title} className={styles.slide}>
@@ -92,7 +103,7 @@ const Categories = () => {
                   className={styles.slideInfo}
                   onClick={() => handleGenreSelection(obj.category, obj.year)}
                 >
-                  <span>{obj.icon}</span>
+                  <span className={styles.icon}>{obj.icon}</span>
                   <p>{obj.title}</p>
                 </div>
               </Link>

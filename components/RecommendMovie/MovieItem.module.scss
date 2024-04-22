@@ -76,3 +76,44 @@
     }
   }
 }
+
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .cart .img {
+    img {
+      width: 130px;
+      height: 220px;
+      object-fit: cover;
+    }
+  }
+  .info {
+    display: none;
+    .title {
+      display: none;
+    }
+    .rating {
+      display: none;
+    }
+    .year {
+      display: none;
+    }
+    .time {
+      display: none;
+    }
+  }
+  .isFilmsPage {
+    .cart {
+      padding: 2px;
+      margin: 5px;
+    }
+    .info {
+      padding: 2px;
+      margin: 0;
+    }
+    img {
+      width: 100px;
+      height: 160px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+}

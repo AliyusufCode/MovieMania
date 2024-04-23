@@ -20,7 +20,7 @@ const SimilarSlider: React.FC<Props> = ({ ganre, type, title }) => {
   return (
     <div>
       <div className={styles.similar}>
-        <h3>
+        <h3 >
           {filter.length > 0 ? "Похожее" : "Пока что нету похожих фильмов :("}
         </h3>
         <div className={styles.slider}>

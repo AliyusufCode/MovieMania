@@ -15,4 +15,31 @@
     flex-wrap: wrap;
     padding: 1px;
   }
+
+  .sortContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #514e4e;
+    color: #f3eeee;
+  }
+
+  .select:focus {
+    outline: none;
+  }
+
+  .option {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .option:hover {
+    background-color: #f0f0f0;
+  }
 }

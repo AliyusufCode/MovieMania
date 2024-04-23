@@ -12,6 +12,7 @@ import {
 } from "@/store/Slices/sortSlice";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import styles from "./sort.module.scss";
 const Sort = () => {
   const genres = [
     "Приключения",
@@ -74,8 +75,12 @@ const Sort = () => {
     dispath(onYearChange(selectedYear));
   }, [selectedGenre]);
   return (
-    <div>
-      <select value={selectedGenre} onChange={handleGenreChange}>
+    <div className={styles.sortContainer}>
+      <select
+        value={selectedGenre}
+        className={styles.select}
+        onChange={handleGenreChange}
+      >
         <option value="">
           {selectedGenre ? "Жанры" || "Все" || selectedGenre : "Жанры" || "Все"}
         </option>
@@ -86,7 +91,11 @@ const Sort = () => {
         ))}
       </select>
 
-      <select value={selectedRating} onChange={handleRatingChange}>
+      <select
+        value={selectedRating}
+        className={styles.select}
+        onChange={handleRatingChange}
+      >
         <option value="">Рейтинг</option>
         {ratings.map((rating) => (
           <option key={rating.id} value={rating.id}>
@@ -94,7 +103,11 @@ const Sort = () => {
           </option>
         ))}
       </select>
-      <select value={selectedYear} onChange={handleYearChange}>
+      <select
+        value={selectedYear}
+        className={styles.select}
+        onChange={handleYearChange}
+      >
         <option value="">
           {selectedYear
             ? "Годы выпуска" || "Все" || selectedYear

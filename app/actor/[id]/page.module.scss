@@ -60,6 +60,9 @@
       }
       .info {
         margin-left: 10px;
+        h3 {
+          color: white;
+        }
         .infoActer {
           display: flex;
           h4 {
@@ -68,6 +71,7 @@
             font-weight: 700;
           }
           p {
+            color: white;
             margin-left: 10px;
           }
         }
@@ -77,6 +81,7 @@
     .movieCount {
       text-align: center;
       font-size: 22px;
+      color: white;
       padding: 2px 0;
     }
     .slider {

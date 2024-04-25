@@ -1,6 +1,4 @@
 .footer {
-  background-color: #dbdad9;
-  color: #000000;
   font-weight: bold;
   padding: 10px 0;
   text-align: center;
@@ -8,10 +6,32 @@
   .container {
     max-width: 1200px;
     margin: 0 auto;
+    .p {
+      margin: 0;
+      font-size: 30px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .p1 {
+      text-align: start;
+      margin: 0;
+      font-size: 20px;
+      color: rgb(169, 161, 161);
+    }
   }
-
-  p {
-    margin: 0;
-    font-size: 1.2rem;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .footer {
+    .container {
+      padding: 0 20px;
+      .p {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      .p1 {
+        text-align: start;
+        font-size: 15px;
+      }
+    }
   }
 }

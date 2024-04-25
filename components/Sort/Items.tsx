@@ -5,10 +5,10 @@ import styles from "./sort.module.scss";
 import MovieItem from "../RecommendMovie/MovieItem";
 import Link from "next/link";
 import { useSelector } from "react-redux";
+import { usePathname } from "next/navigation";
 
 type Props = {
   filter: string;
-
   selectedYear?: any;
 };
 const Items: React.FC<Props> = ({ filter }) => {
@@ -16,6 +16,8 @@ const Items: React.FC<Props> = ({ filter }) => {
     const [start, end] = selectedYear.split("-").map(Number);
     return year >= start && year <= end;
   };
+  const pathname = usePathname();
+
   const selectedGenre = useSelector((store: any) => store.filter.ganre);
   const selectedRating = useSelector((store: any) => store.filter.rating);
   const selectedYear = useSelector((store: any) => store.filter.year);
@@ -32,7 +34,15 @@ const Items: React.FC<Props> = ({ filter }) => {
       filterCondition && genreCondition && ratingCondition && yearCondition
     );
   });
-  console.log(filteredData);
+
+  const movieEnding =
+    pathname == "/series"
+      ? "сериалов"
+      : "" || pathname === "/films"
+      ? "фильмов"
+      : "" || pathname === "/cartoons"
+      ? "мультфильмов"
+      : "";
 
   return (
     <div className={styles.items}>
@@ -50,7 +60,9 @@ const Items: React.FC<Props> = ({ filter }) => {
           </Link>
         ))
       ) : (
-        <h2 className={styles.h2}>Нету фильмов подходящих под сортировку</h2>
+        <h2
+          className={styles.h2}
+        >{`Нету ${movieEnding} подходящих под сортировку`}</h2>
       )}
     </div>
   );

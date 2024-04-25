@@ -17,11 +17,22 @@ const SimilarSlider: React.FC<Props> = ({ ganre, type, title }) => {
       return obj;
     } else return false;
   });
+  console.log(type);
+  const movieEnding =
+    type == "series"
+      ? "сериалов"
+      : "" || type === "films"
+      ? "фильмов"
+      : "" || type === "cartoons"
+      ? "мультфильмов"
+      : "";
   return (
     <div>
       <div className={styles.similar}>
-        <h3 >
-          {filter.length > 0 ? "Похожее" : "Пока что нету похожих фильмов :("}
+        <h3>
+          {filter.length > 0
+            ? "Похожее"
+            : `Пока что нету похожих ${movieEnding} :(`}
         </h3>
         <div className={styles.slider}>
           {filter.map((obj: any) => (

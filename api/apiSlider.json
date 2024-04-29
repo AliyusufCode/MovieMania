@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://i.pinimg.com/originals/99/11/ee/9911ee2ba61e815cca2cef1fd260d76e.jpg",
+    "title": "Джентельмены",
+
+    "ganre": ["Криминал", "Боевик"],
+    "year": "2019 г.",
+    "rating": 9.1,
+    "id": 1001,
+    "type": "films",
+    "link": "films"
+  },
+
+  {
+    "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/291f80e1-c7bb-43ce-afc4-f30fdcae879f/1920x",
+    "title": "Поймай меня, если сможешь",
+
+    "ganre": ["Криминал", "Комедия "],
+    "year": "2002 г.",
+    "rating": 8.8,
+    "id": 1002,
+    "type": "films",
+    "link": "films"
+  },
+  {
+    "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/7e80b3da-96b5-4493-b736-2ed539af74ec/1920x",
+    "title": "Невидимый гость",
+
+    "ganre": ["Криминал ", "Детектив"],
+    "year": "2016 г.",
+    "rating": 7.6,
+    "id": 1003,
+    "type": "films",
+    "link": "films"
+  },
+  {
+    "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7d21c1aa-ce3b-4bd1-92f1-67898a5d933d/1920x",
+    "title": "Остров проклятых",
+    "ganre": ["Триллер ", " Детектив"],
+    "year": "2010 г.",
+    "rating": 8.4,
+    "id": 1004,
+    "type": "films",
+    "link": "films"
+  },
+  {
+    "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/44454795-0333-4b38-803a-592754b5a898/1920x",
+    "title": "Бесславные ублюдки",
+    "ganre": ["Военный", "Приключения "],
+    "year": "2009 г.",
+    "rating": 8.2,
+    "type": "films",
+    "link": "films",
+    "id": 1005
+  }
+]

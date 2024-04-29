@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import styles from "./slider.module.scss";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
 import Link from "next/link";
-
+import app from "../../api/api.json";
 type Slider = {
   url: string;
   title: string;

@@ -1,11 +1,9 @@
 MovieMania
  
 Стек технологий:
-- Js
-- ReactJS
+- NextJs
 - React Hooks
 - Redux Toolkit
-- NextJs
 - TypeScript
 - SCSS
   

@@ -12,6 +12,7 @@ import { IoClose } from "react-icons/io5";
 import { data } from "@/api/data";
 import SearchItem from "../Search/SearchItem";
 import Input from "../Input/Input";
+import Auth from "../Auth/Auth";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -47,10 +48,10 @@ export default function Header() {
         <div onClick={() => setOpenSearch(!openSearch)}>
           <IoSearchSharp className={styles.iconSearch} />
         </div>
+        <Auth />
         <div className={styles.burger} onClick={() => setOpen(!open)}>
           {!open && <GiHamburgerMenu />}
         </div>
-
         {open && (
           <div className={styles.overlay} onClick={() => setOpen(false)}>
             <div className={styles.category}>

@@ -8,12 +8,12 @@
   z-index: 888;
   background: rgb(0, 0, 0);
   top: 0;
-
   .iconSearch {
-    color: #5e5f5f;
+    color: hsl(180, 1%, 37%);
     cursor: pointer;
     font-size: 30px;
     transition: color 0.4s;
+    margin-top: 5px;
     &:hover {
       color: white;
     }
@@ -63,7 +63,7 @@
     }
   }
   .burger {
-    margin-right: 6px;
+    margin-left: 6px;
     font-size: 25px;
     margin-top: 10px;
     color: white;
@@ -146,7 +146,6 @@
     padding: 10px 30px;
   }
   .iconSearch {
-    margin-right: 12px;
     color: white !important;
     cursor: pointer;
     margin-top: 7px !important;
@@ -155,5 +154,11 @@
     &:hover {
       color: white;
     }
+  }
+  .burger {
+    margin-top: 7px !important;
+  }
+  .rightHeader {
+    margin-top: 8px;
   }
 }

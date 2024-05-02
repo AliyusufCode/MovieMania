@@ -21,6 +21,7 @@
     .title {
       h4 {
         padding: 5px 10px;
+        color: white;
       }
       .titleBottom {
         display: flex;
@@ -29,11 +30,13 @@
         span {
           font-size: 13px;
           margin: 0 10px;
+          color: white;
         }
         p {
           font-size: 13px;
           background: rgb(44, 43, 43);
           border-radius: 2px;
+          color: white;
           padding: 3px;
         }
       }

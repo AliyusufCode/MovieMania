@@ -5,6 +5,7 @@ MovieMania
 - React Hooks
 - Redux Toolkit
 - TypeScript
+- Clerk
 - SCSS
   
 Примечание:

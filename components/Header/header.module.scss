@@ -18,6 +18,31 @@
       color: white;
     }
   }
+  .favoriteContent {
+    position: relative;
+    .favoriteIcon {
+      color: hsl(180, 1%, 37%);
+      cursor: pointer;
+      font-size: 34px;
+      transition: color 0.4s;
+      margin-top: 5px;
+      margin-right: 10px;
+      &:hover {
+        color: white;
+      }
+    }
+    .span {
+      left: 18px;
+      position: absolute;
+      color: rgb(0, 0, 0);
+      font-size: medium;
+      padding: 2px 5px;
+      border-radius: 50%;
+      background: hsl(0, 0%, 100%);
+      font-weight: 700;
+      font-size: 10px;
+    }
+  }
   .iconClose {
     color: #5e5f5f;
     position: relative;
@@ -94,7 +119,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.94);
-
     padding: 50% 100% 100% 60%;
     .list {
       list-style-type: none;
@@ -137,6 +161,9 @@
 }
 
 @media screen and (min-width: 370px) and (max-width: 500px) {
+  .activeItem {
+    border-left: 3px solid rgb(255, 255, 255) !important;
+  }
   .iconClose {
     margin-top: 12px !important;
     margin-right: 26px !important;
@@ -149,7 +176,6 @@
     color: white !important;
     cursor: pointer;
     margin-top: 7px !important;
-    font-size: 25px !important;
     transition: color 0.4s;
     &:hover {
       color: white;
@@ -157,8 +183,20 @@
   }
   .burger {
     margin-top: 7px !important;
+    font-size: 26px !important;
   }
   .rightHeader {
     margin-top: 8px;
+  }
+  .favoriteIcon {
+    color: hsl(0, 0%, 100%) !important;
+    cursor: pointer;
+    font-size: 34px;
+    transition: color 0.4s;
+    margin-top: 5px;
+    margin-right: 11px !important;
+    &:hover {
+      color: white;
+    }
   }
 }

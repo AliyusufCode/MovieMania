@@ -1,0 +1,39 @@
+.container {
+  padding: 100px 25px;
+  display: flex;
+  flex-direction: column;
+
+  .h1 {
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+  }
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.h3 {
+  padding: 70px 40%;
+  margin: 0 auto;
+  color: white;
+}
+@media screen and (min-width: 150px) and (max-width: 500px) {
+  .container {
+    display: flex;
+    justify-content: space-around !important;
+    padding: 50px 3px;
+    h1 {
+      padding: 20px 40px !important;
+      font-size: 25px;
+      color: white;
+    }
+  }
+  .content {
+    justify-content: space-around !important;
+  }
+  .h3 {
+    padding: 0px 10%;
+    width: 100vh;
+    color: rgb(132, 129, 129);
+  }
+}

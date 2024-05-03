@@ -17,7 +17,6 @@ const SimilarSlider: React.FC<Props> = ({ ganre, type, title }) => {
       return obj;
     } else return false;
   });
-  console.log(type);
   const movieEnding =
     type == "series"
       ? "сериалов"

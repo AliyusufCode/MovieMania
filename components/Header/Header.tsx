@@ -13,6 +13,8 @@ import { data } from "@/api/data";
 import SearchItem from "../Search/SearchItem";
 import Input from "../Input/Input";
 import Auth from "../Auth/Auth";
+import { MdBookmarkBorder } from "react-icons/md";
+import { useSelector } from "react-redux";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -31,6 +33,7 @@ export default function Header() {
       return false;
     }
   });
+  const favorites = useSelector((state: any) => state.favorites.movies);
 
   return (
     <div className={styles.content}>
@@ -45,6 +48,14 @@ export default function Header() {
       </div>
 
       <div className={styles.rightHeader}>
+        <div className={styles.favoriteContent}>
+          <Link href={"/favorites"}>
+            <MdBookmarkBorder className={styles.favoriteIcon} />
+            {favorites.length > 0 && (
+              <span className={styles.span}>{favorites.length}</span>
+            )}
+          </Link>
+        </div>
         <div onClick={() => setOpenSearch(!openSearch)}>
           <IoSearchSharp className={styles.iconSearch} />
         </div>

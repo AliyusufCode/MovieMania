@@ -17,7 +17,9 @@ const page = ({ params }: any) => {
         })
         .map((obj) => (
           <OpenedMovie
+            id={obj.id}
             img={obj.urlFill}
+            image={obj.url}
             key={obj.id}
             ganre={obj.ganre}
             year={obj.year}
@@ -30,6 +32,7 @@ const page = ({ params }: any) => {
             actors={obj.actors}
             description={obj.description}
             type={obj.type}
+            link={obj.link}
           />
         ))}
     </div>

@@ -10,6 +10,7 @@ export type MovieProps = {
   title: string;
   rating: number;
   time: string;
+  image?: string;
 };
 
 const MovieItem: React.FC<MovieProps> = ({

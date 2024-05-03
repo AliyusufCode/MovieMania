@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import styles from "./searchItem.module.scss";
 export type MovieProps = {

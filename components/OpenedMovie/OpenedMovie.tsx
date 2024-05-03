@@ -11,6 +11,7 @@ import Link from "next/link";
 export type OpenedMovieProps = {
   img: string;
   ganre: any;
+  image: string;
   year: number;
   title: string;
   rating: number;
@@ -21,8 +22,11 @@ export type OpenedMovieProps = {
   actors: any;
   description: string;
   type?: string;
+  id?: number;
+  link?: string;
 };
 const OpenedMovie: React.FC<OpenedMovieProps> = ({
+  image,
   img,
   title,
   type,
@@ -32,18 +36,29 @@ const OpenedMovie: React.FC<OpenedMovieProps> = ({
   time,
   body,
   country,
+  link,
   director,
   actors,
   description,
+  id,
 }) => {
   const topActors = actors.slice(0, 3);
-
   const [isDescriptionClick, setIsDescriptionClick] = useState(false);
-
-  const toggleDescription = () => {
-    setIsDescriptionClick(!isDescriptionClick);
+  const infoFavorites = {
+    id,
+    title,
+    ganre,
+    rating,
+    year,
+    time,
+    body,
+    link,
+    image,
+    country,
+    director,
+    actors,
+    description,
   };
-
   return (
     <div>
       <div className={styles.container}>
@@ -85,14 +100,17 @@ const OpenedMovie: React.FC<OpenedMovieProps> = ({
               </div>
             </div>
           </div>
-          <Buttons />
+          <Buttons infoFavorites={infoFavorites} movieId={id} />
         </div>
       </div>
       <div className={styles.contentDescription}>
         <h3>Описание</h3>
         <p>
           {isDescriptionClick ? description : `${description.slice(0, 100)}...`}
-          <span onClick={toggleDescription} className={styles.span}>
+          <span
+            onClick={() => setIsDescriptionClick(!isDescriptionClick)}
+            className={styles.span}
+          >
             {isDescriptionClick ? "Скрыть описание" : "Подробное описание"}
           </span>
         </p>

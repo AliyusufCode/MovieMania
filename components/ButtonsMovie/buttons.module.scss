@@ -83,5 +83,16 @@
         border-radius: 6px;
       }
     }
+    .activeFav {
+      background-color: rgb(255, 253, 253) !important;
+      .img {
+        font-size: 1px;
+        width: 22px !important;
+        height: 22px !important;
+        border-radius: 6px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+      }
+    }
   }
 }

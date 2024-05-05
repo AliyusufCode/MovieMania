@@ -5183,61 +5183,596 @@ export const data = [
     id: 1005,
     time: "2 ч 33 мин",
   },
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/c5292109-642c-4ab0-894a-cc304e1bcec4/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/0934acf5-15a7-4638-8462-ea4a154d8681/1920x",
+    title: "Оппенгеймер",
+    body: "«Мир меняется навсегда»",
+    description:
+      "История жизни американского физика-теоретика Роберта Оппенгеймера, который во времена Второй мировой войны руководил Манхэттенским проектом — секретными разработками ядерного оружия.",
+    country: "США",
+    director: "Кристофер Нолан",
+    actors: [
+      {
+        id: 777,
+        name: "Киллиан Мерфи",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/fc862177-1d10-46f1-93b4-f5baa38c7d14/112x168",
+      },
+      {
+        id: 778,
+        name: "Эмили Блант",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/fddd5a62-8b43-4e00-95ee-c1fb28d436c3/112x168",
+      },
+      {
+        id: 779,
+        name: "Мэтт Дэймон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/1638c058-eec7-4d7c-acc9-2d2fe510fe62/112x168",
+      },
+      {
+        id: 780,
+        name: "Роберт Дауни мл.",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/47d2cb7a-6bc7-44bc-ba55-16b9d4855acd/112x168",
+      },
+      {
+        id: 781,
+        name: "Флоренс Пью",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/aed40aa0-fac3-41a0-acc0-35344a7b6059/112x168",
+      },
+      {
+        id: 782,
+        name: "Джош Хартнетт",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/51752849-9afa-484e-9b09-61eafae6401e/112x168",
+      },
+      {
+        id: 783,
+        name: "Дэвид Крамхолц",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/91013f0c-9eaf-4322-9d63-c1b48ad071e8/112x168",
+      },
+      {
+        id: 784,
+        name: "Бенни Сэфди",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/23a9b74a-f0c3-4144-9e1f-b81fa2e80782/112x168",
+      },
+    ],
+    ganre: ["Биография", "Драма", "История"],
+    year: 2023,
+    rating: 8.2,
+    type: "films",
+    link: "films",
+    id: 1200,
+    time: "3 ч 0 мин",
+  },
+
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/f0ae94af-050a-433b-a2a9-d6c96d644fd8/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/bae9794c-4a66-4a23-ac2d-6079257b0467/1920x",
+    title: "Барби",
+    body: "«Она — всё, чего только можно пожелать. Он — просто Кен»",
+    description:
+      "Самая обыкновенная стереотипная Барби живёт в великолепном розовом Барбиленде, и каждый её день идеален. Она меняет наряды, загорает на пляже, проводит время с другими Барби, день заканчивается шумной вечеринкой с танцами, и в этой позитивной кутерьме с блёстками влюблённый Кен — всего лишь приложение к Барби. Однажды куклу посещают мысли о смерти, и её сделанные под туфли с каблуками ноги вдруг становятся плоскими. Чтобы разобраться в происходящем и вернуть привычный пластмассовый мир, Барби придётся отправиться в мир реальный и найти там свою девочку-хозяйку. За ней увязывается не мыслящий жизни без своего кумира Кен.",
+    country: "США",
+    director: "Грета Гервиг",
+    actors: [
+      {
+        id: 252,
+        name: "Марго Робби",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/8048147e-07dc-4e65-8e0d-c90206e4ed97/112x168",
+      },
+      {
+        id: 342,
+        name: "Райан Гослинг",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/865d2d0e-bac6-4a78-a0ed-17a87b285069/112x168",
+      },
+      {
+        id: 261,
+        name: "Америка Феррера",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f1ee6023-6040-4d5b-ad7e-307a2e415605/112x168",
+      },
+
+      {
+        id: 1213,
+        name: "Ариана Гринблатт",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/298bd4aa-22ab-4571-86e0-89f28200e37f/112x168",
+      },
+      {
+        id: 1214,
+        name: "Кейт МакКиннон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/18fec692-a958-4126-8c89-b33c0285c473/112x168",
+      },
+      {
+        id: 1215,
+        name: "Исса Рэй",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/419e1643-5390-4a90-9e9f-388e4ee557f1/112x168",
+      },
+      {
+        id: 377,
+        name: "Уилл Феррелл",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/20781ae8-cd82-4b10-b2dd-881695447277/112x168",
+      },
+      {
+        id: 784,
+        name: "Майкл Сера",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/f5ecd0d9-657c-441f-bb69-2ec4f3bf5c02/112x168",
+      },
+    ],
+    ganre: ["Комедия", "Приключения", "Фантастика"],
+    year: 2023,
+    rating: 6.6,
+    type: "films",
+    link: "films",
+    id: 1201,
+    time: "1 ч 54 мин",
+  },
+
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/4c0b2c59-9f8c-4ced-a967-276d9bc785f7/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/f8ad0c04-8d34-47f0-94af-7db1e9a43bb8/1920x",
+    title: "Оставь мир позади",
+    body: "Семья из четырёх человек снимает на выходные шикарный дом",
+    description:
+      "Семья из четырёх человек снимает на выходные шикарный дом с бассейном на побережье недалеко от Нью-Йорка. Расслабленный отдых омрачают некоторые странности: прямо в пляж врезается здоровенный танкер, отключается мобильная связь и интернет, не работает телевидение, а посреди ночи на пороге появляется хозяин дома с дочерью и просит пустить их переночевать, так как в Нью-Йорке произошло массовое отключение электричества. Явно что-то происходит, но никто не понимает, что именно.",
+    country: "США",
+    director: "Сэм Эсмейл",
+    actors: [
+      {
+        id: 1252,
+        name: "Джулия Робертс",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/1cf7c934-eb1d-4481-9d15-4bb4bb1bdc88/112x168",
+      },
+      {
+        id: 1342,
+        name: "Махершала Али",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2a61e1a6-5bae-4cfb-9874-e90f452db73c/112x168",
+      },
+      {
+        id: 494,
+        name: "Итан Хоук",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/2c93b0d4-b155-49f5-8e8c-e77ce7a6a6e0/112x168",
+      },
+
+      {
+        id: 2213,
+        name: "Майхала Херролд",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/934c6b44-9fec-4cee-b669-7480cf46a317/112x168",
+      },
+      {
+        id: 2214,
+        name: "Фарра Маккензи",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/f1d46a6d-9e07-4d29-886a-432e8c53d14c/112x168",
+      },
+      {
+        id: 2215,
+        name: "Чарли Эванс",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/419e1643-5390-4a90-9e9f-388e4ee557f1/112x168",
+      },
+      {
+        id: 2377,
+        name: "Кевин Бейкон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/bbd6774b-b313-4245-8d2c-430f1139c0f6/112x168",
+      },
+      {
+        id: 784,
+        name: "Алексис Рэй Форленца",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/e89bf9a7-3411-49f2-ba9f-b250c3c60681/112x168",
+      },
+    ],
+    ganre: ["Триллер", "Драма", "Фантастика"],
+    year: 2023,
+    rating: 6.7,
+    type: "films",
+    link: "films",
+    id: 1202,
+    time: "2 ч 20 мин",
+  },
+
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/eec1f557-cf1c-4a90-bce5-4fcd242132ba/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/794fd874-9604-427a-8c71-a136fe451c12/1920x",
+    title: "Гран туризмо",
+    body: "Заядлый геймер Янн Марденборо",
+    description:
+      "Заядлый геймер Янн Марденборо, несостоявшийся автогонщик Джейк Солтер и идейный маркетолог Дэнни Мур вместе рискнут всем, чтобы найти своё место в самом элитном виде спорта.",
+    country: "США",
+    director: "Нил Бломкамп",
+    actors: [
+      {
+        id: 1262,
+        name: "Арчи Мадекве",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/4bf0b5a7-00dd-4a1e-80ba-76289d994474/112x168",
+      },
+      {
+        id: 1363,
+        name: "Орландо Блум",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/f1eb4dd5-5374-49c0-84d7-f47e0829d0f5/112x168",
+      },
+      {
+        id: 3294,
+        name: "Дэвид Харбор",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/a66f9ce1-5b06-443c-8670-74bbb45f1185/112x168",
+      },
+
+      {
+        id: 3213,
+        name: "Никхил Пармар",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/de1e6144-fa29-4aa7-9822-bb6249c3c78a/112x168",
+      },
+      {
+        id: 3214,
+        name: "Мэйв Куртье-Лилли",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1059222122371/f1d46a6d-9e07-4d29-886a-432e8c53d14c/112x168",
+      },
+      {
+        id: 3215,
+        name: "Дэниэл Пуиг",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1059222122371/f1d46a6d-9e07-4d29-886a-432e8c53d14c/112x168",
+      },
+      {
+        id: 3377,
+        name: "Джимон Хонсу",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/30d15adb-d693-4c51-b102-2c82901e7396/112x168",
+      },
+      {
+        id: 12784,
+        name: "Джери Халлиуэлл",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/7ecd3aa9-aa3f-4013-b169-3133d2a784b8/112x168",
+      },
+    ],
+    ganre: ["Боевик", "Драма", "Приключения", "Спорт"],
+    year: 2023,
+    rating: 7.6,
+    type: "films",
+    link: "films",
+    id: 1203,
+    time: "2 ч 14 мин",
+  },
+
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/f0b70070-f11c-4789-9938-fc482e0c6f09/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/5258877d-a4b8-4432-adde-f31650b3c45d/1920x",
+    title: "Наполеон",
+    body: "«Он пришёл из ниоткуда. И завоевал всё»",
+    description:
+      "История тяжёлого пути Бонапарта к власти через призму его изменчивых отношений с любовью всей жизни — Жозефиной.",
+    country: "США",
+    director: "Ридли Скотт",
+    actors: [
+      {
+        id: 2262,
+        name: "Хоакин Феникс",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/85880973-3516-4ad5-91ae-c9ead4d10f77/112x168",
+      },
+      {
+        id: 12012,
+        name: "Ванесса Кирби",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/87ee80d5-7ba7-43c3-a374-5b865f861f2e/112x168",
+      },
+      {
+        id: 31294,
+        name: "Тахар Рахим",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/a4fed02c-1268-4b26-9903-82c46f035cc5/112x168",
+      },
+
+      {
+        id: 123213,
+        name: "Руперт Эверетт",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/1838a84e-f550-4cd9-865f-7241cd161bdd/112x168",
+      },
+      {
+        id: 321214,
+        name: "Марк Боннар",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/d2a0938c-4de0-4bb0-923f-ad1d0f0cf528/112x168",
+      },
+      {
+        id: 3222215,
+        name: "Пол Рис",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1059222122371/f1d46a6d-9e07-4d29-886a-432e8c53d14c/112x168",
+      },
+      {
+        id: 337217,
+        name: "Бен Майлз",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/ab646ad1-9329-40dd-b3e9-03fca21a7a5c/112x168",
+      },
+      {
+        id: 12722284,
+        name: "Риана Дьюс",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/d8a0da02-884a-4ee4-8138-1bf0049bf042/112x168",
+      },
+      {
+        id: 127222284,
+        name: "Людивин Санье",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/7b5ef0e3-5090-4b9b-a2b0-8273abf9a01b/112x168",
+      },
+    ],
+    ganre: ["Биография", "Военный", "Драма", "История"],
+    year: 2023,
+    rating: 6.2,
+    type: "films",
+    link: "films",
+    id: 3203,
+    time: "2 ч 38 мин",
+  },
+
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/5967fc7f-b6e1-4905-ab0a-d36d8015758e/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/acc488de-b78c-4d5e-ae71-fdf695b7f230/1920x",
+    title: "Создатель",
+    body: "Повсеместное применение искусственного интеллекта привело к тому, что в Лос-Анджелесе произошёл ядерный взрыв. ",
+    description:
+      "Повсеместное применение искусственного интеллекта привело к тому, что в Лос-Анджелесе произошёл ядерный взрыв. С тех пор коллективный Запад во главе с США ведёт непримиримую войну на уничтожение ИИ, но блок стран Юго-Восточной Азии — Новая Азия — живёт в гармонии с роботами и сдаваться не собирается. В 2065 году спецназовец Джошуа находился в тылу врага с целью отыскать главного создателя ИИ, известного под именем Нирмата, и втёрся в доверие настолько, что женился на учёной Майе и с нетерпением ждал рождения ребёнка. Но во время нападения американцев и ракетного удара главной надежды Запада на победу — военной орбитальной станции NOMAD — его жена погибла.Пять лет спустя Джошуа вынужден вернуться в Новую Азию, чтобы помочь отряду военных найти Нирмату и его лабораторию, где, по данным разведки, разработано новейшее оружие, способное уничтожить NOMAD.",
+    country: "США",
+    director: "Гарет Эдвардс",
+    actors: [
+      {
+        id: 2262111,
+        name: "Джон Дэвид Вашингтон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/d7b92ed8-90f4-4446-ae6e-6733a296358b/112x168",
+      },
+      {
+        id: 12012111,
+        name: "Мэделин Юна Войлс",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/5a716df2-367c-4f3d-a71f-16636d8cf763/112x168",
+      },
+      {
+        id: 31294111,
+        name: "Джемма Чан",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/434ec288-7618-423a-9259-0877b7ed0754/112x168",
+      },
+
+      {
+        id: 123213111,
+        name: "Эллисон Дженни",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/13f8b596-383a-488b-8f71-00a46fa79632/112x168",
+      },
+      {
+        id: 321214111,
+        name: "Кэн Ватанабэ",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8dadadb-d507-47bc-bf7a-0fc23b2cc000/112x168",
+      },
+      {
+        id: 322221111,
+        name: "Стерджил Симпсон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/49c4afca-bb9e-48ad-85d2-7e585db371d8/112x168",
+      },
+      {
+        id: 337217111,
+        name: "Амер Чадха-Пател",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/b377204a-a563-47ed-9db5-f9f9b0ae7be1/112x168",
+      },
+      {
+        id: 12722284111,
+        name: "Марк Менчака",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/99ac6ae5-4129-414d-b756-80f4e5ce8474/112x168",
+      },
+    ],
+    ganre: ["Фантастика", "Боевик", "Драма"],
+    year: 2023,
+    rating: 6.5,
+    type: "films",
+    link: "films",
+    id: 4203,
+    time: "2 ч 13 мин",
+  },
+  {
+    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/2cce4627-1099-477e-a2ec-a0025cb1fea4/300x450",
+    urlFill:
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/82252502-4e67-4a94-a144-41ef62901f37/1920x",
+    title: "Вонка",
+    body: "Вонка мечтает открыть шоколадный магазин",
+    description:
+      "Мечтая открыть магазин в городе, известном своим шоколадом, молодой и бедный Вилли Вонка обнаруживает, что индустрией управляет картель жадных шоколатье.",
+    country: "США",
+    director: "Пол Кинг",
+    actors: [
+      {
+        id: 271,
+        name: "Тимоти Шаламе",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/0ae93f05-a7c4-4a15-8389-f869a8f5e1ed/112x168",
+      },
+      {
+        id: 12012222,
+        name: "Колин О’Брайэн",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/6a979ecd-8b3d-415c-b8e1-fa488caaa9d4/112x168",
+      },
+      {
+        id: 31294222,
+        name: "Кала Лэйн",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/10810/434ec288-7618-423a-9259-0877b7ed0754/112x168",
+      },
+
+      {
+        id: 123213222,
+        name: "Кигэн-Майкл Ки",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2ebc0b2b-b4b1-45df-a348-c357ac6a3124/112x168",
+      },
+      {
+        id: 321214222,
+        name: "Пэтерсон Джозеф",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/e213f5a1-c97c-445b-8170-22953636b48c/112x168",
+      },
+      {
+        id: 322221222,
+        name: "Мэтт Лукас",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/cb2edc8d-6e35-4ab0-b611-ba34e312ed67/112x168",
+      },
+      {
+        id: 337212222,
+        name: "Мэтью Бэйнтон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/97515553-6ab7-4453-9827-0d4b82c0ec93/112x168",
+      },
+      {
+        id: 12722284111,
+        name: "Салли Хокинс",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/99ac6ae5-4129-414d-b756-80f4e5ce8474/112x168",
+      },
+      {
+        id: 207,
+        name: "Роуэн Эткинсон",
+        image:
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/599e1b62-1bd5-4792-802b-7d7fef26c8c6/112x168",
+      },
+    ],
+    ganre: ["Фантастика", "Комедия", "Приключения", "Семейный"],
+    year: 2023,
+    rating: 7.2,
+    type: "films",
+    link: "films",
+    id: 4103,
+    time: "1 ч 56 мин",
+  },
 ];
+
+import opengame from "../public/hero-1.jpg";
+import vonka from "../public/hero-7.jpg";
+import photo from "../public/hero-3.jpg";
+import barbi from "../public/hero-2.jpg";
+import sozdatel from "../public/hero-6.jpg";
+import napoleon from "../public/hero-5.jpg";
+import gran from "../public/hero-4.jpg";
 
 export const sliderMovie = [
   {
+    url: vonka,
+    title: "Вонка",
+    ganre: ["Семейный"],
+    year: "2023",
+    rating: 7.2,
+    id: 4103,
+    type: "films",
+    link: "films",
+  },
+
+  {
+    url: opengame,
+    title: "Оппенгеймер",
+    ganre: ["Биография", "Драма", "История"],
+    year: "2002",
+    rating: 8.8,
+    id: 1200,
+    type: "films",
+    link: "films",
+  },
+  {
     url: "https://i.pinimg.com/originals/99/11/ee/9911ee2ba61e815cca2cef1fd260d76e.jpg",
     title: "Джентельмены",
-
     ganre: ["Криминал", "Боевик"],
-    year: "2019 г.",
+    year: "2019",
     rating: 9.1,
     id: 1001,
     type: "films",
     link: "films",
   },
-
   {
-    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/291f80e1-c7bb-43ce-afc4-f30fdcae879f/1920x",
-    title: "Поймай меня, если сможешь",
-
-    ganre: ["Криминал", "Комедия "],
-    year: "2002 г.",
-    rating: 8.8,
-    id: 1002,
+    url: photo,
+    title: "Оставь мир позади",
+    ganre: ["Триллер", "Драма"],
+    year: "2023",
+    rating: 6.7,
+    id: 1202,
     type: "films",
     link: "films",
   },
   {
-    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/7e80b3da-96b5-4493-b736-2ed539af74ec/1920x",
-    title: "Невидимый гость",
-
-    ganre: ["Криминал ", "Детектив"],
-    year: "2016 г.",
+    url: barbi,
+    title: "Барби",
+    ganre: ["Комедия", "Приключения", "Фантастика"],
+    year: "2023",
+    rating: 6.6,
+    id: 1201,
+    type: "films",
+    link: "films",
+  },
+  {
+    url: gran,
+    title: "Гран туризмо",
+    ganre: ["Боевик", "Драма", "Приключения", "Спорт"],
+    year: "2023",
     rating: 7.6,
-    id: 1003,
+    id: 1203,
+    type: "films",
+    link: "films",
+  },
+
+  {
+    url: napoleon,
+    title: "Наполеон",
+    ganre: ["Биография", "Военный", "Драма", "История"],
+    year: "2023",
+    rating: 6.2,
+    id: 3203,
     type: "films",
     link: "films",
   },
   {
-    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7d21c1aa-ce3b-4bd1-92f1-67898a5d933d/1920x",
-    title: "Остров проклятых",
-    ganre: ["Триллер ", " Детектив"],
-    year: "2010 г.",
-    rating: 8.4,
-    id: 1004,
+    url: sozdatel,
+    title: "Создатель",
+    ganre: ["Фантастика", "Боевик", "Драма"],
+    year: "2023",
+    rating: 6.5,
+    id: 4203,
     type: "films",
     link: "films",
-  },
-  {
-    url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/44454795-0333-4b38-803a-592754b5a898/1920x",
-    title: "Бесславные ублюдки",
-    ganre: ["Военный", "Приключения "],
-    year: "2009 г.",
-    rating: 8.2,
-    type: "films",
-    link: "films",
-    id: 1005,
   },
 ];

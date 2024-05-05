@@ -7,9 +7,8 @@ import styles from "./slider.module.scss";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
 import Link from "next/link";
-import app from "../../api/api.json";
 type Slider = {
-  url: string;
+  url: any;
   title: string;
   id: number;
 };
@@ -85,7 +84,8 @@ const CarouselComponent = ({ sliders }: { sliders: Slider[] }) => {
               </div>
               <div className={styles.textOverlayBottom}>
                 <p className={styles.rating}>{slider.rating}</p>
-                <p>{slider.year}</p> <h4>{slider.ganre[0]}</h4>
+                <p className={styles.year}>{slider.year}</p>
+                <h4>{slider.ganre[0]}</h4>
               </div>
             </div>
           </SwiperSlide>

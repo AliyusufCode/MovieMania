@@ -1,3 +1,5 @@
+$font-family: "Montserrat", sans-serif;
+
 .category {
   padding-top: 20px;
 }
@@ -14,6 +16,7 @@
   margin-bottom: 0.5rem;
   font-weight: bold;
   text-decoration: none;
+  font-family: $font-family;
   color: gray;
   border-bottom: 2px solid black;
   font-size: 1.2rem;
@@ -27,9 +30,9 @@
 }
 .itemActive {
   margin-bottom: 0.5rem;
-
   text-decoration: none;
   color: #fffefa;
+  font-family: $font-family;
   font-size: 1.2rem;
   transition: color 0.3s;
   border-bottom: 2px solid #6c9bcd;

@@ -107,7 +107,10 @@ a {
     margin: 0 auto;
   }
 }
-
+.app {
+  max-width: 1515px;
+  margin: 0 auto;
+}
 @media (max-width: 500px) {
   .app {
     width: 500px;

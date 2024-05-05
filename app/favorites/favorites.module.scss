@@ -32,8 +32,11 @@
     justify-content: space-around !important;
   }
   .h3 {
-    padding: 0px 10%;
-    width: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10%;
+    margin: 0 auto !important;
     color: rgb(132, 129, 129);
+    width: 300px;
   }
 }

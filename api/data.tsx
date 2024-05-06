@@ -5634,7 +5634,7 @@ export const data = [
         id: 31294222,
         name: "Кала Лэйн",
         image:
-          "https://avatars.mds.yandex.net/get-kinopoisk-image/10810/434ec288-7618-423a-9259-0877b7ed0754/112x168",
+          "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/6a979ecd-8b3d-415c-b8e1-fa488caaa9d4/112x168",
       },
 
       {

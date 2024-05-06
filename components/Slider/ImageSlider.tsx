@@ -42,19 +42,69 @@ const CarouselComponent = ({ sliders }: { sliders: Slider[] }) => {
         centeredSlides={true}
         loop={true}
         breakpoints={{
-          360: {
-            slidesPerView: 1.1,
-            spaceBetween: 3,
-            centeredSlides: false,
+          370: {
+            slidesPerView: 1.18,
+            spaceBetween: 7,
+            centeredSlides: true,
+          },
+          380: {
+            slidesPerView: 1.12,
+            spaceBetween: 1,
+            centeredSlides: true,
+          },
+          390: {
+            slidesPerView: 1.14,
+            spaceBetween: 1,
+            centeredSlides: true,
+          },
+          395: {
+            slidesPerView: 1.14,
+            spaceBetween: 1,
+            centeredSlides: true,
           },
           400: {
-            slidesPerView: 1.14,
-            centeredSlides: false,
+            slidesPerView: 1.22,
+            centeredSlides: true,
             spaceBetween: 1,
           },
-          465: {
-            slidesPerView: 1.1,
+          410: {
+            slidesPerView: 1.24,
+            centeredSlides: true,
+            spaceBetween: 1,
+          },
+          415: {
+            slidesPerView: 1.22,
+            centeredSlides: true,
+            spaceBetween: 1,
+          },
+          420: {
+            slidesPerView: 1.16,
+            centeredSlides: true,
+            spaceBetween: 1,
+          },
+          425: {
+            slidesPerView: 1.18,
             spaceBetween: 3,
+          },
+          430: {
+            slidesPerView: 1.13,
+            spaceBetween: 3,
+          },
+          435: {
+            slidesPerView: 1.13,
+            spaceBetween: 3,
+          },
+          440: {
+            slidesPerView: 1.12,
+            spaceBetween: 3,
+          },
+          445: {
+            slidesPerView: 1.17,
+            spaceBetween: 10,
+          },
+          455: {
+            slidesPerView: 1.13,
+            spaceBetween: 10,
           },
           500: {
             slidesPerView: 1.3,

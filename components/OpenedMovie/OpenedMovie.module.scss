@@ -5,14 +5,13 @@
   .img {
     width: 100%;
     user-select: none;
-    height: 120vh;
+    height: 90vh;
     mask-image: linear-gradient(
       to left,
       rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0)
     );
-    max-height: 725px;
   }
 }
 

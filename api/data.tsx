@@ -5610,7 +5610,7 @@ export const data = [
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/2cce4627-1099-477e-a2ec-a0025cb1fea4/300x450",
     urlFill:
-      "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/82252502-4e67-4a94-a144-41ef62901f37/1920x",
+      "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/735f5f37-de62-410d-9988-1a6177632103/1920x",
     title: "Вонка",
     body: "Вонка мечтает открыть шоколадный магазин",
     description:
@@ -5708,8 +5708,8 @@ export const sliderMovie = [
     url: opengame,
     title: "Оппенгеймер",
     ganre: ["Биография", "Драма", "История"],
-    year: "2002",
-    rating: 8.8,
+    year: "2023",
+    rating: 8.2,
     id: 1200,
     type: "films",
     link: "films",
@@ -5719,7 +5719,7 @@ export const sliderMovie = [
     title: "Джентельмены",
     ganre: ["Криминал", "Боевик"],
     year: "2019",
-    rating: 9.1,
+    rating: 8.3,
     id: 1001,
     type: "films",
     link: "films",

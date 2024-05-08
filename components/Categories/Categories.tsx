@@ -82,15 +82,15 @@ const Categories = () => {
         spaceBetween={20}
         slidesPerView={7}
         centeredSlides={false}
-        loop={true}
+        loop={false}
         breakpoints={{
           360: {
-            slidesPerView: 2.4,
+            slidesPerView: 2.9,
             spaceBetween: 8,
             centeredSlides: false,
           },
           500: {
-            spaceBetween: 20,
+            spaceBetween: 10,
             slidesPerView: 7,
           },
         }}

@@ -68,7 +68,7 @@ const CarouselComponent = ({ sliders }: { sliders: Slider[] }) => {
             spaceBetween: 1,
           },
           410: {
-            slidesPerView: 1.24,
+            slidesPerView: 1.22,
             centeredSlides: true,
             spaceBetween: 1,
           },

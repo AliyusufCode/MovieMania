@@ -1,6 +1,7 @@
 export const data = [
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+    playerUrl: "watch?v=TODt_q-_4C4",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e16c9567-56c3-4989-8f8a-8970b2b85142/1920x",
     title: "Зеленая миля",
@@ -76,6 +77,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/bf93b465-1189-4155-9dd1-cb9fb5cb1bb5/300x450",
+    playerUrl: "watch?v=tTwFeGArcrs",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/a97d457b-1a13-4484-bbb9-32c4c0523fb2/1920x",
     title: "1+1",
@@ -153,6 +155,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8472ca52-2751-4bbe-9a08-8a1be75f93d5/300x450",
+    playerUrl: "watch?v=iJp1L9w_bts&t=1s",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/61b94746-ea8b-419a-9123-2640e62b1552/1920x",
     title: "Бумажный дом",
@@ -228,6 +231,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/389c3708-9557-44ea-9579-42b42e0570bd/300x450",
+    playerUrl: "watch?v=4XFk_J0GpcE",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fd2fac65-ebfb-4483-b4ff-5be07f8bf492/1920x",
     title: "Постучись в мою дверь",
@@ -304,6 +308,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/300x450",
+    playerUrl: "watch?v=otmeAaifX04",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9c918339-f643-4663-a716-4655c121a674/1920x",
     title: "Форрест Гамп",
@@ -380,6 +385,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/300x450",
+    playerUrl: "watch?v=1w1wBO-hlmA",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/80beedbf-2514-4ca0-abf1-aa7d23a7c6d7/1920x",
     title: "Шрэк",
@@ -449,6 +455,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e3a30bc8-ebce-454e-a8a9-2431ca20199b/300x450",
+    playerUrl: "watch?v=JA8Xw0ffel8",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/4d422741-ad84-43d4-9ffa-0c660690e103/1920x",
     title: "Кот в сапогах",
@@ -507,6 +514,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/06f4aae3-ad16-4f69-ae34-3dbe17fc85b9/300x450",
+    playerUrl: "watch?v=BRStvCSKSIQ",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b758ebc0-e0f2-465b-890a-061bb48ad1db/1920x",
     title: "Ранго",
@@ -582,6 +590,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0b76b2a2-d1c7-4f04-a284-80ff7bb709a4/300x450",
+    playerUrl: "watch?v=kgAeKpAPOYk",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/d41182f2-3194-4e9a-9e4b-77d1c0573163/1920x",
     title: "Побег из Шоушенка",
@@ -658,6 +667,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/8ef070c9-2570-4540-9b83-d7ce759c0781/300x450",
+    playerUrl: "watch?v=C7-7qQ61QHU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/d2e6c3fc-ec84-4ac1-a4da-bd576b107651/1920x",
     title: "Бойцовский клуб",
@@ -734,6 +744,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/4ad7eb9b-7eb2-452f-b70b-6a9875c88acd/300x450",
+    playerUrl: "watch?v=wd1kQ_M66Q0",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/ca0aaf6d-27c0-4469-9b1f-ad699ac491ba/1920x",
     title: "Чёрная любовь",
@@ -803,6 +814,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/56d4e2fb-f71c-419e-845e-d667e57f92ad/300x450",
+    playerUrl: "watch?v=PYLj0xMZ-Tk",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/5861f69b-ee83-4a01-aa90-7c6de2c73f67/1920x",
     title: "Мастер и Маргарита",
@@ -879,6 +891,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/1073b002-96de-49ae-a432-1da460f6890c/300x450",
+    playerUrl: "watch?v=ZAhlqPVT2As",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/de10dd95-b903-4e4c-b7f5-f1dc08bb92af/1920x",
     title: "Игра в кальмара",
@@ -954,6 +967,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450",
+    playerUrl: "watch?v=YYKAUhcDYzA",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/1704de90-3e58-4e5e-85d8-ee5423d3dd99/1920x",
     title: "Игра престолов",
@@ -1029,6 +1043,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/87b5659d-a159-4224-9bff-d5a5d109a53b/300x450",
+    playerUrl: "watch?v=iknlRtZ-A60",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/40ae04df-9b62-41f8-a0dd-dc1b28a79f5e/1920x",
     title: "Криминальное чтиво",
@@ -1105,6 +1120,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/53656129-a885-4731-968b-bf7aa4a9c3e8/300x450",
+    playerUrl: "watch?v=LNbXEe7ACWU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/8aa0d80f-c017-48e5-b026-85544fc97cc4/1920x",
     title: "Идеальные дни",
@@ -1181,6 +1197,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/f28c1ea2-47b0-49d5-b11c-9608744f0233/300x450",
+    playerUrl: "watch?v=eJoBW2p9W0I",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/e2ceec88-ceb8-4ad0-8a76-5518d74d1573/1920x",
     title: "Шерлок",
@@ -1256,6 +1273,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/2b1296bf-c7d7-4bf3-bcc6-8b2505cc8cc7/300x450",
+    playerUrl: "watch?v=-gV4hInrefc",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/2e33f105-7885-4d1a-873d-c3d515233f6f/1920x",
     title: "Бригада",
@@ -1331,6 +1349,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/300x450",
+    playerUrl: "watch?v=bEOphX6SVvw",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/16cf8b88-512a-4ad5-a4b7-7a7f9d76c0d2/1920x",
     title: "Во все тяжкие",
@@ -1406,6 +1425,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/96a25d67-aa56-4496-bcac-1471e811582a/300x450",
+    playerUrl: "watch?v=Xtf3c-Y20Lw",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/d5221fc7-e276-4a39-9a52-e2f26d04f2ef/1920x",
     title: "Ведьмак",
@@ -1481,6 +1501,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/036b49a6-6261-4f26-8aa1-fb36703fc1e2/300x450",
+    playerUrl: "watch?v=FtL8KDtzE3Q",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/92c6b6cb-631f-4789-90de-3e22a7a738ef/1920x",
     title: "Контейнер",
@@ -1556,6 +1577,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/37f88226-546b-4779-a074-c92202eb9374/300x450",
+    playerUrl: "watch?v=HHAb-4Bmz70",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/d655ade0-f60d-4cb9-982f-831a209a0c90/1920x",
     title: "Кухня",
@@ -1631,6 +1653,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/e44eb2d3-9a69-4d03-b851-88f694c4fd55/300x450",
+    playerUrl: "watch?v=5SLrBWAZ-_Q",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/eca3071c-51c5-439b-a0c3-ea75d9bbee22/1920x",
     title: "Остаться в живых",
@@ -1706,6 +1729,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/60aa1abc-b754-4817-ad9c-0bcda427a12b/300x450",
+    playerUrl: "watch?v=v46jwQKUnsY",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/37730444-975e-4a7a-b9fe-cd73ea19c4d3/1920x",
     title: "Король Лев",
@@ -1782,6 +1806,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/146b1b20-347b-4b6a-98c8-fdc2c75495cb/300x450",
+    playerUrl: "watch?v=d2cSfGXC5qc",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/20d7af83-602f-4834-b717-f008e3f19d9c/1920x",
     title: "ВАЛЛ·И",
@@ -1859,6 +1884,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/64417bd3-838b-4910-a9f4-c278c509d568/300x450",
+    playerUrl: "watch?v=-WPvsP8cYKQ",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/d074608d-4be0-4e2b-8d79-6eefac53bfdb/1920x",
     title: "Человек-паук: Через вселенные",
@@ -1935,6 +1961,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/b97e7837-4708-408f-9762-071faf6c1886/300x450",
+    playerUrl: "watch?v=uuCHlUhfl90",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/950ffea9-122b-4a44-a029-c0de169319c1/1920x",
     title: "Король Лев  Акуна Матата",
@@ -2011,6 +2038,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/300x450",
+    playerUrl: "watch?v=hIsmuVx0_-c",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ac1cdeed-e9bd-4efb-bdef-a86c49fa627d/1920x",
     title: "Жил-был пёс",
@@ -2051,6 +2079,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/33433892-a787-4c4a-ad08-943db8f88c7e/300x450",
+    playerUrl: "watch?v=5XQ34Y6OX-k",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/23e715f0-9108-4b59-9aee-9be0617e37a5/1920x",
     title: "Убийцы цветочной луны",
@@ -2127,6 +2156,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/300x450",
+    playerUrl: "watch?v=qcPfI0y7wRU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/6187c3fb-1167-4b58-9547-8b7b777d4493/1920x",
     title: "Интерстеллар",
@@ -2203,6 +2233,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/5c758ac0-7a5c-4f00-a94f-1be680a312fb/300x450",
+    playerUrl: "watch?v=e5SRH4OJbbU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c7c4494b-a62d-4700-b924-c2ab566e584a/1920x",
     title: "Волк с Уолл-стрит",
@@ -2279,6 +2310,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/1a920451-e765-41e9-81aa-78438e82abbc/300x450",
+    playerUrl: "watch?v=SDYlvMxbJm8",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/6d46cb3b-3910-4a1d-8903-599056fc5898/1920x",
     title: "Как приручить дракона",
@@ -2342,6 +2374,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/efa923ca-2007-4a79-b759-377fc1a5664f/300x450",
+    playerUrl: "watch?v=D-kNmbemPdc",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/c1f60b9f-ab7d-4fdf-89cb-d57887ba0bd6/1920x",
     title: "Холодное сердце",
@@ -2405,6 +2438,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9eb762d6-4cdd-464f-9937-aebf30067acc/300x450",
+    playerUrl: "watch?v=DOlTmIhEsg0",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/21e4f795-bd54-4771-8ddd-6c05a5af707f/1920x",
     title: "Дюна",
@@ -2481,6 +2515,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/47fe48f6-ff17-4411-a12f-d337bea2639d/300x450",
+    playerUrl: "watch?v=4W2B-gM4S2c",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a6de689c-dc44-48f5-88be-15c9603489dd/1920x",
     title: "Большой куш",
@@ -2557,6 +2592,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/42fd2959-0e98-4ce2-b24e-06392b4cb502/300x450",
+    playerUrl: "watch?v=UQx_x6D2OlU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/f30120cc-fdef-41c1-8247-bd187c5765e2/1920x",
     title: "Ледниковый период",
@@ -2626,6 +2662,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/963dbe30-0a49-4d8c-9f30-4c08c03ed806/300x450",
+    playerUrl: "watch?v=fvRgUXCgDPM",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/6ed57431-925d-490a-b199-6bd5ad973ae7/1920x",
     title: "Босс-молокосос",
@@ -2689,6 +2726,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b1add366-9e49-4ad8-905a-46ca23da8adc/300x450",
+    playerUrl: "watch?v=GWzMBmzsGeE",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/d2bb42b3-1d85-41ad-aa5f-045b3d5df40d/1920x",
     title: "Бешеные псы",
@@ -2765,6 +2803,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/e5013408-8374-400b-a444-b9753e9da28d/300x450",
+    playerUrl: "watch?v=AQyRqt3XZ80",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/0e59a1c5-2453-4589-9533-08b541ef96bb/1920x",
     title: "Омерзительная восьмерка",
@@ -2841,6 +2880,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/a9c4698d-7eea-4fe8-8624-4c536c09f7fd/300x450",
+    playerUrl: "watch?v=exuAMn6ymTs",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/2082a641-6321-41cb-a94c-be397555b82d/1920x",
     title: "Кунг-фу Панда",
@@ -2916,6 +2956,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a068ff20-cb86-4211-af3a-80100347b72a/300x450",
+    playerUrl: "watch?v=yYKW1DOsDE0",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/15be72ed-308c-44d2-9e28-801e49705fe0/1920x",
     title: "Три богатыря: Ход конем",
@@ -2991,6 +3032,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/46fd178b-9a99-4974-a7b5-4b56bbc4b08e/300x450",
+    playerUrl: "watch?v=f-H-oVd78Z4",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/53b76018-8775-4117-8474-84412852023f/1920x",
     title: "История игрушек",
@@ -3066,6 +3108,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/e6d422bd-d87a-44ea-9f09-4973585fa88b/300x450",
+    playerUrl: "watch?v=RhOc9G3htkY",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/5b1566d9-69be-4d40-858d-6cd617fe1b60/1920x",
     title: "Кентавр",
@@ -3136,6 +3179,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/7d10f506-1d2a-4d73-98e0-d6605183b938/300x450",
+    playerUrl: "watch?v=WmHXjY14Wnc",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/edd48c8f-120e-4cb0-bf62-67f8b78a7b67/1920x",
     title: "Драйв",
@@ -3212,6 +3256,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1a217dd3-6970-4ae2-9fa3-eebb4bffaa28/300x450",
+    playerUrl: "watch?v=XpUi34HOD8U",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/f25e3c2a-4a61-4c06-8099-e7538eff6148/1920x",
     title: "Ральф",
@@ -3287,6 +3332,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9df6f2a7-236a-4836-bcee-f1f97dcc58ac/300x450",
+    playerUrl: "watch?v=n5PQNOV9EyU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/de22c7e7-0c4a-4e10-8c7e-ebd1d0ee8be4/1920x",
     title: "Семейка Крудс",
@@ -3332,6 +3378,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/fd0501f0-adaf-48fd-bad3-1216a33fc95a/300x450",
+    playerUrl: "watch?v=9DgsztNQmRU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/66cb8309-6b7c-4130-b49a-4b8e4bd4d74f/1920x",
     title: "Старикам тут не место",
@@ -3408,6 +3455,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/8da0575e-e51b-4d19-9cd3-88136096f86a/300x450",
+    playerUrl: "watch?v=JcNKKpqY0xE",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/bddcac31-9083-4a84-855b-6bd6d004a073/1920x",
     title: "Чемпион мира",
@@ -3485,6 +3533,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/ec4dc5fd-3151-4ff7-bd36-2a9ae0b7f558/300x450",
+    playerUrl: "watch?v=hVIFLLhQADA",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/7c74bbe5-c4bd-40d2-badd-cd7aac7b1aeb/1920x",
     title: "Мегамозг",
@@ -3554,6 +3603,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/300x450",
+    playerUrl: "watch?v=aDaaCGZz-Ok",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/a6607b98-9172-4e40-810a-6b1f13eca595/1920x",
     title: "Брат",
@@ -3630,6 +3680,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/62c1301b-c913-4b3c-af87-74934ae1ec93/300x450",
+    playerUrl: "watch?v=XhuwzH1rGxM",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/4efaa66f-270d-469c-b6d5-0dca7b40bb27/1920x",
     title: "Джон Уик 4",
@@ -3706,6 +3757,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/a74d86f6-a78a-46dd-8c1e-65cd79984902/300x450",
+    playerUrl: "watch?v=oEj7lGLslFo",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/ba22de7b-8495-41a8-adc4-b166d10da287/1920x",
     title: "Никто",
@@ -3776,6 +3828,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/9ce4716c-dd27-435b-8a3a-f833ad859052/300x450",
+    playerUrl: "watch?v=GiFyoro7u78",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/2dff1dc4-3306-4dce-8edb-0f4a567a460c/1920x",
     title: "Семь",
@@ -3846,6 +3899,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/09a852e0-394e-457e-b637-880cadc38dd2/300x450",
+    playerUrl: "watch?v=R7FpwXz2HVc",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a97590d9-27c3-424b-a3f4-946ebc6286c2/1920x",
     title: "Жизнь Дэвида Гейла",
@@ -3922,6 +3976,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/88d2a9f4-8bc7-451a-b6ef-9eb8bef2b245/300x450",
+    playerUrl: "watch?v=_DaKgyrgFyM",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/cce6daaf-e930-4d22-bd22-6476338a5f9f/1920x",
     title: "В погоне за счастьем",
@@ -3992,6 +4047,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/4c34cc44-cf15-451d-b878-8efc2c624b58/300x450",
+    playerUrl: "watch?v=3sO8hJoKV5A",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/afa29b7d-ee77-4584-a541-1d56b0b68e4b/1920x",
     title: "Семь жизней",
@@ -4062,6 +4118,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/03f417d6-70bd-4001-96f2-425f81755b40/300x450",
+    playerUrl: "watch?v=1yI6RCqYrkE",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/610d1906-de2a-4899-8d6f-2c3c44315028/1920x",
     title: "Бьютифул",
@@ -4126,6 +4183,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/96d93e3a-fdbf-4b6f-b02d-2fc9c2648a18/300x450",
+    playerUrl: "watch?v=Qwx0AsI6Zq0",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/3c906b75-aaf1-4539-9a90-7663897a8ccc/1920x",
     title: "Титаник",
@@ -4194,6 +4252,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/c48824e7-89fc-4d6f-a55a-57a8fa05d38c/300x450",
+    playerUrl: "watch?v=U-eyo1mzi0I",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/293bdcf1-32a4-4a72-9ca7-07e48e2379da/1920x",
     title: "Дневник памяти",
@@ -4268,6 +4327,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/cb778377-a57b-48f4-9c90-7a037880ae39/300x450",
+    playerUrl: "watch?v=owWPI6LhyC8",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/3891324d-25e0-4d79-9514-a0e7a5d601a9/1920x",
     title: "Невероятная жизнь Уолтера Митти",
@@ -4331,6 +4391,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/a4bcd57c-d63d-4d2c-944d-78bbf78d3a09/300x450",
+    playerUrl: "watch?v=ej14qdoxrrk",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/8b7c18bb-88df-48e3-b338-2257d3c9960a/1920x",
     title: "Всегда говори «ДА»",
@@ -4407,6 +4468,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/46276880-98f1-4218-98cc-4d82075b2eb9/300x450",
+    playerUrl: "watch?v=NDpXfWfBoiw",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/cd6b2624-cd56-480d-ab02-7fb7df866045/1920x",
     title: "Мой кровавый Валентин 3D",
@@ -4477,6 +4539,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/c892b75a-e75a-4f9e-bda9-d4dd0538145c/300x450",
+    playerUrl: "watch?v=EkanAgD8pxo",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/ff619fd6-fd7c-480e-b1d3-b1ed8e0fe327/1920x",
     title: "Прочь",
@@ -4547,6 +4610,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/66e405dc-339c-41c2-a6e0-89d5769a1c20/300x450",
+    playerUrl: "watch?v=CZGwWByroxQ",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/603f744a-d646-4158-977b-1b2e1c8dc385/1920x",
     title: "Два, три, демон, приди!",
@@ -4599,6 +4663,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/57dfc077-5437-4ad9-9b16-dcdaf02f8a61/300x450",
+    playerUrl: "watch?v=bFSRDwNyG6k",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/3f4357b9-0fce-40bd-9e34-a38faa78a57f/1920x",
     title: "Ворон",
@@ -4657,6 +4722,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/58ada567-370b-4710-888c-3d8c60aa7754/300x450",
+    playerUrl: "watch?v=SKCc9b9y-Z0",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/ac258bae-7958-46b2-8206-1be2bcd0785a/1920x",
     title: "Синистер",
@@ -4735,6 +4801,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/022a58e3-5b9b-411b-bfb3-09fedb700401/300x450",
+    playerUrl: "watch?v=dTEnH3d7OfA",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/4956a148-3b86-4505-9f74-e02db5df1749/1920x",
     title: "Один дома",
@@ -4811,6 +4878,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/300x450",
+    playerUrl: "watch?v=-QEyYjEkyZ4",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/bf89f1c6-ee08-40ec-a8d8-5dead13790d9/1920x",
     title: "Джентльмены",
@@ -4886,6 +4954,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e38dd6f9-610e-4c90-8540-dc48560cb9cc/300x450",
+    playerUrl: "watch?v=-dH_UHY2BRg",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c59eef30-5963-434b-ab8e-95739cc60825/1920x",
     title: "Поймай меня, если сможешь",
@@ -4961,6 +5030,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/611a2f49-49fb-458e-b98a-fb46672f1a24/300x450",
+    playerUrl: "watch?v=oRgdmcXwu1g",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d15bfd8c-ed4e-431c-8593-e73ccc1d138b/1920x",
     title: "Невидимый гость",
@@ -5036,6 +5106,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/300x450",
+    playerUrl: "watch?v=06PajDJNMF4",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/c945e18e-c8de-4852-b266-7f5e03bff094/1920x",
     title: "Остров проклятых",
@@ -5111,6 +5182,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/5e6dde98-74a8-4c02-b003-01d48e091025/300x450",
+    playerUrl: "watch?v=pZEZ1yDIHEU",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/96a0cecf-50b4-4665-95e5-9895d32332b7/1920x",
     title: "Бесславные ублюдки",
@@ -5185,6 +5257,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/c5292109-642c-4ab0-894a-cc304e1bcec4/300x450",
+    playerUrl: "watch?v=PFepj-rWbFE",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/0934acf5-15a7-4638-8462-ea4a154d8681/1920x",
     title: "Оппенгеймер",
@@ -5254,6 +5327,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/f0ae94af-050a-433b-a2a9-d6c96d644fd8/300x450",
+    playerUrl: "watch?v=w0m2C3lN1h8",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/bae9794c-4a66-4a23-ac2d-6079257b0467/1920x",
     title: "Барби",
@@ -5324,6 +5398,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/4c0b2c59-9f8c-4ced-a967-276d9bc785f7/300x450",
+    playerUrl: "watch?v=PkwP1BJhwWA",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/f8ad0c04-8d34-47f0-94af-7db1e9a43bb8/1920x",
     title: "Оставь мир позади",
@@ -5394,6 +5469,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/eec1f557-cf1c-4a90-bce5-4fcd242132ba/300x450",
+    playerUrl: "watch?v=lZHtaJU-Gnw",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/794fd874-9604-427a-8c71-a136fe451c12/1920x",
     title: "Гран туризмо",
@@ -5464,6 +5540,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/f0b70070-f11c-4789-9938-fc482e0c6f09/300x450",
+    playerUrl: "watch?v=VdvIVekcRNg",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/5258877d-a4b8-4432-adde-f31650b3c45d/1920x",
     title: "Наполеон",
@@ -5540,6 +5617,7 @@ export const data = [
 
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/5967fc7f-b6e1-4905-ab0a-d36d8015758e/300x450",
+    playerUrl: "watch?v=JEEQjpNT8BQ",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/acc488de-b78c-4d5e-ae71-fdf695b7f230/1920x",
     title: "Создатель",
@@ -5609,6 +5687,7 @@ export const data = [
   },
   {
     url: "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/2cce4627-1099-477e-a2ec-a0025cb1fea4/300x450",
+    playerUrl: "watch?v=sQojwy7BCuM",
     urlFill:
       "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/735f5f37-de62-410d-9988-1a6177632103/1920x",
     title: "Вонка",

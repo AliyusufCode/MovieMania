@@ -32,6 +32,7 @@ const page = ({ params }: any) => {
             actors={obj.actors}
             description={obj.description}
             type={obj.type}
+            playerUrl={obj.playerUrl}
           />
         ))}
     </div>

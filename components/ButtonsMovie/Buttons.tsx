@@ -11,9 +11,10 @@ import {
 type Props = {
   infoFavorites: any;
   movieId?: number;
+  setPlayer: any;
 };
 
-const Buttons: React.FC<Props> = ({ infoFavorites, movieId }) => {
+const Buttons: React.FC<Props> = ({ infoFavorites, movieId, setPlayer }) => {
   const favorites = useSelector((state: any) => state.favorites.movies);
   const favoritesId = useSelector((state: any) => state.favorites.moviesId);
   const isFavorite = favoritesId.includes(movieId);
@@ -29,8 +30,12 @@ const Buttons: React.FC<Props> = ({ infoFavorites, movieId }) => {
   };
   return (
     <div className={styles.content}>
-      <button className={styles.openMovie}>Смотреть фильм</button>
-      <button className={styles.openTrailer}>Трейлер</button>
+      <button className={styles.openMovie} onClick={() => setPlayer(true)}>
+        Смотреть фильм
+      </button>
+      <button className={styles.openTrailer} onClick={() => setPlayer(true)}>
+        Трейлер
+      </button>
       <button
         className={isFavorite ? styles.activeFav : styles.favorite}
         onClick={clickFavorited}

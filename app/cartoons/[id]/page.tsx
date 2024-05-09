@@ -19,6 +19,7 @@ const page = ({ params }: any) => {
           <OpenedMovie
             id={obj.id}
             img={obj.urlFill}
+            playerUrl={obj.playerUrl}
             image={obj.url}
             key={obj.id}
             ganre={obj.ganre}

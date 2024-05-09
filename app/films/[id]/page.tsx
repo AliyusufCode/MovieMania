@@ -24,6 +24,7 @@ const page = ({ params }: any) => {
             time={obj.time}
             title={obj.title}
             rating={obj.rating}
+            playerUrl={obj.playerUrl}
             body={obj.body}
             country={obj.country}
             director={obj.director}

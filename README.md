@@ -1,10 +1,10 @@
 MovieMania
  
 Стек технологий:
-- NextJs
-- React Hooks
-- Redux Toolkit
-- TypeScript
-- Clerk
-- SCSS
+- NodeJs
+- Express
+- MongoDB/Mongoose
+- JSON Web Token
+- Multer
+- BCrypt
  
